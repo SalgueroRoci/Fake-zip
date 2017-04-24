@@ -434,4 +434,3 @@ void chopName(char *str)
         return;  // Or: n = len;
     memmove(str, str+index, len - index + 1);
 }
-
